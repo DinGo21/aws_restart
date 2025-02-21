@@ -8,8 +8,8 @@ for item in myMixedTypeList:
 
 myVehicle = {
     "vin" : "<empty>",
-    "make" : "<empty>" ,
-    "model" : "<empty>" ,
+    "make" : "<empty>",
+    "model" : "<empty>",
     "year" : 0,
     "range" : 0,
     "topSpeed" : 0,
@@ -42,7 +42,7 @@ with open('car_fleet.csv') as csvFile:
             currentVehicle["zeroSixty"] = row[6]  
             currentVehicle["mileage"] = row[7]  
             myInventoryList.append(currentVehicle)  
-            lineCount += 1  
+            lineCount += 1
     print(f'Processed {lineCount} lines.')
 
 for myCarProperties in myInventoryList:
