@@ -7,8 +7,8 @@ def	isPrime(n):
 		i += 1
 	return 1
 
-def printPrimes():
-	outfile = open("result.txt", "w")
+def	printPrimes():
+	outfile = open("result.txt", 'w')
 
 	for i in range(1, 251):
 		if isPrime(i):

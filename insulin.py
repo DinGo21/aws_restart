@@ -20,4 +20,5 @@ def	InsulinSeq():
 		with open("insulin-seq/ainsulin-seq-clean.txt", 'w') as ainInsulinSeqClean:
 			ainInsulinSeqClean.write(line[89:110])
 
-InsulinSeq()
+if __name__ == "__main__":
+	InsulinSeq()
