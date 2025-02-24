@@ -24,6 +24,7 @@ def runCaesarCipherProgram():
     myCipherKey = input( "Please enter a key (whole number from 1-25): ")
     myEncryptedMessage = encryptMessage(myMessage, myCipherKey, myAlphabet2)
     myDecryptedMessage = decryptMessage(myEncryptedMessage, myCipherKey, myAlphabet2)
+
     print(f'Alphabet: {myAlphabet2}')
     print(myMessage)
     print(myCipherKey)
